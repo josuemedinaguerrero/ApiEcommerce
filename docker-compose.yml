@@ -1,0 +1,6 @@
+services:
+  apiecommerce:
+    image: ${DOCKER_REGISTRY-}apiecommerce
+    build:
+      context: .
+      dockerfile: ApiEcommerce/Dockerfile
